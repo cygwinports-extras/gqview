@@ -1,0 +1,152 @@
+gqview
+------------------------------------------
+GQview is a GTK image viewer. It's key features include single click 
+file viewing, external editor support, thumbnail preview, and zoom 
+features. Some image management features are also included.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.9-1
+  glib2-2.12.9-1
+  gtk2-x11-2.10.9-1
+  libintl8-0.15-1
+  pango-1.14.10-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.9-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://gqview.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gqview/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gqview-2.0.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gqview-2.0.4-X.cygport all
+
+This will create:
+  /usr/src/gqview-2.0.4-X-src.tar.bz2
+  /usr/src/gqview-2.0.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/gqview.sh
+  /usr/bin/gqview.exe
+  /usr/share/applications/gqview.desktop
+  /usr/share/doc/Cygwin/gqview-2.0.4.README
+  /usr/share/doc/gqview-2.0.4/AUTHORS
+  /usr/share/doc/gqview-2.0.4/COPYING
+  /usr/share/doc/gqview-2.0.4/ChangeLog
+  /usr/share/doc/gqview-2.0.4/INSTALL
+  /usr/share/doc/gqview-2.0.4/README
+  /usr/share/doc/gqview-2.0.4/TODO
+  /usr/share/doc/gqview-2.0.4/html/10_1_general.html
+  /usr/share/doc/gqview-2.0.4/html/10_2_image.html
+  /usr/share/doc/gqview-2.0.4/html/10_3_window.html
+  /usr/share/doc/gqview-2.0.4/html/10_4_filtering.html
+  /usr/share/doc/gqview-2.0.4/html/10_5_editor_commands.html
+  /usr/share/doc/gqview-2.0.4/html/10_6_advanced.html
+  /usr/share/doc/gqview-2.0.4/html/10_7_hidden.html
+  /usr/share/doc/gqview-2.0.4/html/10_options.html
+  /usr/share/doc/gqview-2.0.4/html/11_1_command_line.html
+  /usr/share/doc/gqview-2.0.4/html/11_2_keyboard_shortcuts.html
+  /usr/share/doc/gqview-2.0.4/html/11_3_thumbnails.html
+  /usr/share/doc/gqview-2.0.4/html/11_4_management.html
+  /usr/share/doc/gqview-2.0.4/html/11_reference.html
+  /usr/share/doc/gqview-2.0.4/html/12_credits.html
+  /usr/share/doc/gqview-2.0.4/html/1_introduction.html
+  /usr/share/doc/gqview-2.0.4/html/2_1_navigation.html
+  /usr/share/doc/gqview-2.0.4/html/2_2_menus.html
+  /usr/share/doc/gqview-2.0.4/html/2_3_layout.html
+  /usr/share/doc/gqview-2.0.4/html/2_4_file_pane.html
+  /usr/share/doc/gqview-2.0.4/html/2_5_folder_pane.html
+  /usr/share/doc/gqview-2.0.4/html/2_6_image_pane.html
+  /usr/share/doc/gqview-2.0.4/html/2_7_status_bar.html
+  /usr/share/doc/gqview-2.0.4/html/2_main_window.html
+  /usr/share/doc/gqview-2.0.4/html/3_1_image_window.html
+  /usr/share/doc/gqview-2.0.4/html/3_2_image_properties.html
+  /usr/share/doc/gqview-2.0.4/html/3_other_windows.html
+  /usr/share/doc/gqview-2.0.4/html/4_1_copy_move.html
+  /usr/share/doc/gqview-2.0.4/html/4_2_rename.html
+  /usr/share/doc/gqview-2.0.4/html/4_3_delete.html
+  /usr/share/doc/gqview-2.0.4/html/4_4_external_editing.html
+  /usr/share/doc/gqview-2.0.4/html/4_image_management.html
+  /usr/share/doc/gqview-2.0.4/html/5_1_search.html
+  /usr/share/doc/gqview-2.0.4/html/5_2_finding_duplicates.html
+  /usr/share/doc/gqview-2.0.4/html/5_image_search.html
+  /usr/share/doc/gqview-2.0.4/html/6_collections.html
+  /usr/share/doc/gqview-2.0.4/html/7_1_exif.html
+  /usr/share/doc/gqview-2.0.4/html/7_2_sort_manager.html
+  /usr/share/doc/gqview-2.0.4/html/7_3_keywords.html
+  /usr/share/doc/gqview-2.0.4/html/7_sidebars.html
+  /usr/share/doc/gqview-2.0.4/html/8_1_slideshow.html
+  /usr/share/doc/gqview-2.0.4/html/8_2_fullscreen.html
+  /usr/share/doc/gqview-2.0.4/html/8_image_presentation.html
+  /usr/share/doc/gqview-2.0.4/html/9_printing.html
+  /usr/share/doc/gqview-2.0.4/html/gnu_fdl.txt
+  /usr/share/doc/gqview-2.0.4/html/gqview_faq.html
+  /usr/share/doc/gqview-2.0.4/html/index.html
+  /usr/share/locale/ar/LC_MESSAGES/gqview.mo
+  /usr/share/locale/be/LC_MESSAGES/gqview.mo
+  /usr/share/locale/bg/LC_MESSAGES/gqview.mo
+  /usr/share/locale/ca/LC_MESSAGES/gqview.mo
+  /usr/share/locale/cs/LC_MESSAGES/gqview.mo
+  /usr/share/locale/da/LC_MESSAGES/gqview.mo
+  /usr/share/locale/de/LC_MESSAGES/gqview.mo
+  /usr/share/locale/eo/LC_MESSAGES/gqview.mo
+  /usr/share/locale/es/LC_MESSAGES/gqview.mo
+  /usr/share/locale/et/LC_MESSAGES/gqview.mo
+  /usr/share/locale/eu/LC_MESSAGES/gqview.mo
+  /usr/share/locale/fi/LC_MESSAGES/gqview.mo
+  /usr/share/locale/fr/LC_MESSAGES/gqview.mo
+  /usr/share/locale/hu/LC_MESSAGES/gqview.mo
+  /usr/share/locale/id/LC_MESSAGES/gqview.mo
+  /usr/share/locale/it/LC_MESSAGES/gqview.mo
+  /usr/share/locale/ja/LC_MESSAGES/gqview.mo
+  /usr/share/locale/ko/LC_MESSAGES/gqview.mo
+  /usr/share/locale/nl/LC_MESSAGES/gqview.mo
+  /usr/share/locale/no/LC_MESSAGES/gqview.mo
+  /usr/share/locale/pl/LC_MESSAGES/gqview.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/gqview.mo
+  /usr/share/locale/ro/LC_MESSAGES/gqview.mo
+  /usr/share/locale/ru/LC_MESSAGES/gqview.mo
+  /usr/share/locale/sk/LC_MESSAGES/gqview.mo
+  /usr/share/locale/sl/LC_MESSAGES/gqview.mo
+  /usr/share/locale/sv/LC_MESSAGES/gqview.mo
+  /usr/share/locale/th/LC_MESSAGES/gqview.mo
+  /usr/share/locale/tr/LC_MESSAGES/gqview.mo
+  /usr/share/locale/uk/LC_MESSAGES/gqview.mo
+  /usr/share/locale/vi/LC_MESSAGES/gqview.mo
+  /usr/share/locale/zh_CN.GB2312/LC_MESSAGES/gqview.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/gqview.mo
+  /usr/share/man/man1/gqview.1.gz
+  /usr/share/pixmaps/gqview.png
+
+------------------
+
+Port Notes:
+
+----- version 2.0.4-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
