@@ -1,5 +1,5 @@
 category: Graphics Gnome
-requires: cygwin gdk-pixbuf2 glib2 gtk2-x11 libintl8 pango
+requires: gdk-pixbuf2 glib2 gtk2-x11 libintl8 pango
 sdesc: "GTK image viewer"
 ldesc: "GQview is a GTK image viewer. It's key features include single 
 click file viewing, external editor support, thumbnail preview, and zoom 
